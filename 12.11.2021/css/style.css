@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    color:black;
+}
+.header{
+    display: flex;
+    justify-content:space-evenly;
+    background-color:bisque;
+    padding: 20px;
+    height:51px;
+}
+.header_section{
+    display: flex;
+    align-items:center;
+}
+.header_item{
+    padding:10px 15px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.header_logo{
+    font-weight: bold;
+    background-color:dimgray;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+.header_item:hover{
+    background-color:burlywood;
+}
+.first_section{
+    display: flex;
+    flex-direction:row;
+    height:983px;
+    width: 100%;
+    background-color:lightgrey;
+}
+.tenis{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    height:100%;
+    width:50%;
+    
+}
+.title{
+    margin-top: 100px;
+    height:20%;
+    font-size: 200%;
+}
+.content{
+    font-size: 120%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.img{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    width:50%;
+}
+.secound_section{
+    display: flex;
+    flex-direction:column;
+    background-color:#FFD2D2;
+    height:1080px;
+    width:100%;
+}
+.allo{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height:20%;
+    font-size:200%;
+}
+.container{
+    display: flex;
+    flex-direction:row;   
+    justify-content:space-evenly;
+    height:80%;
+}
+.text_l{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 100%;
+    background-color:lightblue;
+    height:50%;
+    width:50%;
+    margin:50px;
+    padding: 10px;
+
+}
+.third_section{
+    display: flex;
+    flex-direction:column;
+    background-color:#F9FAC7;
+    height:1080px;
+    width:100%;
+}
+.teachers{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+
+}
+.teacher{
+    flex-direction:column;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.footer{
+    height:1080px;
+    width:100%;
+    background-color:cyan;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.footer_content{
+
+}
+.verticalline{
+    width: 1px; /* Line width */
+    background-color: black; /* Line color */
+    height: 80%; /* Override in-line if you want specific height. */
+    float: left; /* Causes the line to float to left of content. 
+      You can instead use position:absolute or display:inline-block
+      if this fits better with your design */
+  }
